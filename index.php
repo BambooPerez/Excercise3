@@ -26,8 +26,8 @@
 <?php
 
 // DB connection info
-$host = "tcp:t1owtc1fn7.database.windows.net,1433";
-$user = "BambooCVIL@t1owtc1fn7";
+$host = "tcp:ijauvkaa8e.database.windows.net,1433";
+$user = "bambooCVIL@ijauvkaa8e";
 $pwd = "Simatic123!";
 $db = "registration";
 // Connect to database.
