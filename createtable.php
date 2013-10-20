@@ -1,9 +1,9 @@
 <?php
 // DB connection info
-$host = "localhost\sqlexpress";
-$user = "user name";
-$pwd = "password";
-$db = "registration";
+$host = "tcp:t1owtc1fn7.database.windows.net";
+$user = "BambooCVIL";
+$pwd = "Simatic123!";
+$db = "tasklist";
 try{
     $conn = new PDO( "sqlsrv:Server= $host ; Database = $db ", $user, $pwd);
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
