@@ -3,7 +3,7 @@
 $host = "tcp:ijauvkaa8e.database.windows.net,1433";
 $user = "bambooCVIL@ijauvkaa8e";
 $pwd = "Simatic123!";
-$db = "cvildbawwdytuamt";
+$db = "registration";
 try{
     $conn = new PDO( "sqlsrv:Server= $host ; Database = $db ", $user, $pwd);
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
